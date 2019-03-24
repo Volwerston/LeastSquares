@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LeastSquares
+namespace LeastSquaresAlgorithm
 {
-    public class LeastSquares
+    public class LeastSquaresAlgorithm
     {
         public static double[] Calculate(int n, double[] x, double[] y)
         {
