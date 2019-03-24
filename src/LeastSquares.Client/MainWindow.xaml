@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LeastSquares.Client"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="477.5">
+        Title="MainWindow" Height="237" Width="477.5">
     <Grid Margin="0,0,342,0">
-        <TextBox Name="X" HorizontalAlignment="Left" Height="22" Margin="83,26,-321,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="366" RenderTransformOrigin="0.5,0.5">
+        <TextBox Name="X" HorizontalAlignment="Left" Height="56" Margin="83,26,-321,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="366" RenderTransformOrigin="0.5,0.5">
             <TextBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -27,7 +27,7 @@
                 </TransformGroup>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <TextBox Name="Y" HorizontalAlignment="Left" Height="22" Margin="83,66,-321,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="366" RenderTransformOrigin="0.5,0.5">
+        <TextBox Name="Y" HorizontalAlignment="Left" Height="55" Margin="83,93,-321,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="366" RenderTransformOrigin="0.5,0.5">
             <TextBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -37,7 +37,7 @@
                 </TransformGroup>
             </TextBox.RenderTransform>
         </TextBox>
-        <TextBlock HorizontalAlignment="Left" Margin="33,66,0,0" TextWrapping="Wrap" Text="Y:" VerticalAlignment="Top" Width="33" Height="20" RenderTransformOrigin="0.5,0.5">
+        <TextBlock HorizontalAlignment="Left" Margin="33,93,0,0" TextWrapping="Wrap" Text="Y:" VerticalAlignment="Top" Width="33" Height="20" RenderTransformOrigin="0.5,0.5">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -47,7 +47,6 @@
                 </TransformGroup>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <Button Content="Calculate" HorizontalAlignment="Left" Margin="182,117,-130,0" VerticalAlignment="Top" Width="76" Click="Button_Click"/>
-
+        <Button Content="Calculate" HorizontalAlignment="Left" Margin="182,166,-130,0" VerticalAlignment="Top" Width="76" Click="Button_Click"/>
     </Grid>
 </Window>
